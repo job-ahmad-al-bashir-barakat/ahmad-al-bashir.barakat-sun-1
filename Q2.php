@@ -1,0 +1,20 @@
+<?php
+
+$val = 3;
+
+switch($val) {
+    case 0: { $print = 'zero'; }; break; 
+    case 1: { $print = 'one'; }; break;  
+    case 2: { $print = 'tow'; }; break;  
+    case 3: { $print = 'three'; }; break;  
+    case 4: { $print = 'four'; }; break;  
+    case 5: { $print = 'five'; }; break;  
+    case 6: { $print = 'six'; }; break;  
+    case 7: { $print = 'seven'; }; break;  
+    case 8: { $print = 'eight'; }; break;  
+    case 9: { $print = 'nine'; }; break;
+    default: { $print = 'please enter valid number'; }; break;
+}
+
+echo "number is $print" ;
+
